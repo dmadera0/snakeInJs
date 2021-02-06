@@ -1,8 +1,10 @@
 export const SNAKE_SPEED = 1
 
-function update() {
-
+export function update() {
+console.log('update snake')
 
 }
 
-function draw() {}
+export function draw() {
+    console.log('draw snake')
+}
